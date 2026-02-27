@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #9bff61;
+  background: #9bff61;//cambie el color del fondo
   color: white;
   font-family: Arial;
   text-align: center;
@@ -18,3 +18,4 @@ canvas {
   display: block;
   margin: auto;
 }
+
