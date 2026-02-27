@@ -1,6 +1,6 @@
 {
   "name": "Atrapa El Personaje",
-  "short_name": "Ouch",
+  "short_name": "Toca al personaje",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#111111",
@@ -19,3 +19,4 @@
     }
   ]
 }
+
