@@ -17,7 +17,7 @@ const game = new Phaser.Game(config);
 
 let score = 0;
 let personaje;
-let personajes = ['personaje.png', 'personaje2.png']; // lista de personajes
+let personajes = ['personaje.png', 'personaje2.png']; // lista de personajes, porra lo de img para que funcione bien
 let indexPersonaje = 0;
 
 function preload(){
@@ -48,7 +48,7 @@ function create() {
         personaje.y = Phaser.Math.Between(50, 590);
 
         if(score === 10){
-            document.getElementById("titulo").innerText = "¡Ganaste!";
+            document.getElementById("titulo").innerText = "¡TENEMOS UN GANADOR!";//Mensaje cuando gans
             personaje.disableInteractive();
             scene.time.delayedCall(2000, () => {
                 scene.scene.restart();
@@ -63,4 +63,5 @@ function create() {
         personaje.setTexture('player' + (indexPersonaje + 1));
     });
 }
+
 
